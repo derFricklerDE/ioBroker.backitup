@@ -176,7 +176,7 @@ Wer seine Backups lieber manuell wiederherstellen möchte, sollte folgende Punkt
 2. Restore eines kompletten Backups:
     - Den Befehl:“sudo  iobroker stop“ über die Konsole ausführen
     - Das erstellte Backup muss in das Verzeichnis  „root/“ kopiert werden
-    - Den Befehl:" sudo tar -xzvf Backupname.tar.gz -C / " über die Konsole ausführen
+    - Den Befehl:" sudo tar -xzvf Backupname.tar.gz -C /opt/iobroker " über die Konsole ausführen
     - Warten - Während der Wiederherstellung wird euch angezeigt was gerade gemacht wird
     - Den Befehl: „sudo iobroker start“ über die Konsole ausführen
 
